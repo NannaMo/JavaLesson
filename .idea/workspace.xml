@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="c560e13b-5b51-4b26-99e3-6a1c88cab7bd" name="Changes" comment="" />
+
     <list default="true" id="3a715ba0-874c-4679-a8c3-167f930ca368" name="Changes" comment="" />
   
   <component name="ChangeListManager">
@@ -22,6 +25,10 @@
       </list>
     </option>
   </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+
 
   <component name="TaskManager">
     <servers />
@@ -86,4 +93,5 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+
 </project>
