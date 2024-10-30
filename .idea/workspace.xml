@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
 
+    <list default="true" id="aa845600-2734-446d-a205-bee8a7657e0a" name="Changes" comment="" />
+
+
     <list default="true" id="d62cb6d4-5d7a-44d6-85bc-e4332e05f628" name="Changes" comment="" />
 
 
@@ -15,6 +18,7 @@
   <component name="ChangeListManager">
     <!-- Оберіть потрібний id -->
     <list default="true" id="d95ba7b2-2707-4d55-bfa1-10964361585b" name="Changes" comment="" />
+
 
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,15 @@
       </list>
     </option>
   </component>
+
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2o9acHbs7114OvZ9vZ6Yt0LDfK1" />
+
 
   <component name="RunManager">
     <configuration name="L12OperatorSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,10 +89,30 @@
   
   <component name="ProjectId" id="2o4S0xcYJqgC0JYpnmnC398CKEB" />
   
+
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa845600-2734-446d-a205-bee8a7657e0a" name="Changes" comment="" />
+      <created>1730284322445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730284322445</updated>
+    </task>
+    <servers />
+  </component>
+
   
   <component name="PropertiesComponent"><![CDATA[{
     "keyToString": {
@@ -116,6 +149,7 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+
 
 
 </project>
