@@ -3,13 +3,16 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  
   <component name="ChangeListManager">
+    <!-- Оберіть потрібний id -->
     <list default="true" id="d95ba7b2-2707-4d55-bfa1-10964361585b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -17,25 +20,41 @@
       </list>
     </option>
   </component>
+
+  <!-- Компонент Git.Settings включає об'єднані опції -->
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+
+  <!-- Об’єднаний ProjectColorInfo (виберіть потрібне значення "associatedIndex") -->
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
-  <component name="ProjectId" id="2o72tSRhX1S9p1OPkUYWF1L8uDt" />
+  
+  <component name="ProjectId" id="2o4S0xcYJqgC0JYpnmnC398CKEB" />
+  
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  
   <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Lesson8"
-  }
-}]]></component>
+    "keyToString": {
+      "RunOnceActivity.OpenProjectViewOnStart": "true",
+      "RunOnceActivity.ShowReadmeOnStart": "true",
+      "git-widget-placeholder": "Lesson6",
+      "onboarding.tips.debug.path": "C:/Users/A.Mostypan/Downloads/JavaLesson/src/main/java/org/example/Main.java"
+    }
+  }]]></component>
+
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  
+  <!-- Компонент TaskManager з об'єднаним changelist id -->
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d95ba7b2-2707-4d55-bfa1-10964361585b" name="Changes" comment="" />
@@ -45,5 +64,18 @@
       <updated>1730206507440</updated>
     </task>
     <servers />
+  </component>
+
+  <!-- Доданий компонент XDebuggerManager з гілки main -->
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
