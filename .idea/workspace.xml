@@ -3,6 +3,8 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a715ba0-874c-4679-a8c3-167f930ca368" name="Changes" comment="" />
   
   <component name="ChangeListManager">
     <!-- Оберіть потрібний id -->
@@ -20,6 +22,12 @@
       </list>
     </option>
   </component>
+
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
+
 
   <!-- Компонент Git.Settings включає об'єднані опції -->
   <component name="Git.Settings">
