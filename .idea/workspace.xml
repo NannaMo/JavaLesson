@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa845600-2734-446d-a205-bee8a7657e0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/L21_Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/L17_Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L17_Dog.java" afterDir="false" />
-    </list>
+    <list default="true" id="aa845600-2734-446d-a205-bee8a7657e0a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,12 +41,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-
-    "git-widget-placeholder": "Lesson21",
-
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-
     "onboarding.tips.debug.path": "C:/Users/A.Mostypan/Downloads/JavaLesson/src/main/java/org/example/Main.java"
   }
 }]]></component>
