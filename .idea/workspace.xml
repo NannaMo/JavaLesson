@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa845600-2734-446d-a205-bee8a7657e0a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/L9OperatorsIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L9OperatorsIfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/L17_Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L17_Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/L17_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L17_Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
       &quot;associatedIndex&quot;: 7
     }</component>
@@ -42,7 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Lesson17",
+    "git-widget-placeholder": "main",
     "onboarding.tips.debug.path": "C:/Users/A.Mostypan/Downloads/JavaLesson/src/main/java/org/example/Main.java"
   }
 }]]></component>
@@ -81,5 +83,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
