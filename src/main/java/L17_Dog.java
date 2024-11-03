@@ -1,3 +1,5 @@
+import java.text.DecimalFormat;
+
 public class L17_Dog {
 
     private static int dogsCount;
@@ -21,7 +23,7 @@ public class L17_Dog {
     public static final int TAIL = 1;
     private String name;
     private String breed;
-    private L21_Size size;
+    private L21_Size size = L21_Size.UNDEFINED;
 
     public static int getDogsCount() {
         return dogsCount;
@@ -60,27 +62,32 @@ public class L17_Dog {
             System.out.println("User tried to assign " + paws + " paws for a dog");
             System.out.println("Correct number is 4");
         }
+
     } */
 
-    // Сгенерировать set и get можно комбинацией Alt+Insert
+    }*/
 
 
-    public int getPaws() {
-        return PAWS;
-    }
-
-    public int getTail() {
-        return TAIL;
-    }
+        // Сгенерировать set и get можно комбинацией Alt+Insert
 
 
-    public String getBreed() {
-        return breed;
-    }
+        public int getPaws () {
+            return PAWS;
+        }
 
-    public void setBreed(String breed) {
-        this.breed = breed;
-    }
+        public int getTail () {
+            return TAIL;
+        }
+
+
+        public String getBreed () {
+            return breed;
+        }
+
+        public void setBreed (String breed){
+            this.breed = breed;
+        }
+
 
     public void bark() {
 
@@ -100,11 +107,42 @@ public class L17_Dog {
         }
     }
 
-    public void bite() {
-        if (dogsCount > 2) {
-            System.out.println("Dogs are biting you");
+        public void bark () {
+
+            switch (size) {
+                case BIG:
+                case VERY_BIG:
+                    System.out.println("Wof - Wof");
+                    break;
+                case AVERAGE:
+                    System.out.println("Raf - Raf");
+                    break;
+                case SMALL:
+                case VERY_SMALL:
+                    System.out.println("Tiaf - Tiaf");
+                    break;
+                default:
+                    System.out.println("Dog's size is undefined");
+
+       /* if ("Big".equalsIgnoreCase(size)) {
+            System.out.println("Wof - Wof");
+        } else if ("Average".equalsIgnoreCase(size)) {
+            System.out.println("Raf - Raf");
         } else {
-            bark();
+            System.out.println("Tiaf - Tiaf");
+
+        }*/
+            }
+
+
+
         }
-    }
+        public void bite () {
+            if (dogsCount > 2) {
+                System.out.println("Dogs are biting you");
+            } else {
+                bark();
+            }
+        }
+
 }
