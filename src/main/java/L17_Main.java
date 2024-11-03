@@ -1,3 +1,5 @@
+import java.time.temporal.ValueRange;
+
 public class L17_Main {
     public static void main(String[] args) {
 
@@ -26,6 +28,16 @@ public class L17_Main {
         System.out.println("Sheppard's name is " + sheppard.getName());
         System.out.println("Lab has " + lab.getPaws() + " paws");
         System.out.println("Sheppard has " + sheppard.getTail() + " tail");*/
+
+        L21_Size s = L21_Size.SMALL;
+        L21_Size s1 = L21_Size.valueOf("BIG");
+        //System.out.println(s1);
+
+        L21_Size[] values = L21_Size.values();
+        for(int i = 0; i< values.length; i++) {
+            System.out.println(values[i]);
+        }
+
     }
 
 
