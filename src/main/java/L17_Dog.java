@@ -62,7 +62,11 @@ public class L17_Dog {
             System.out.println("User tried to assign " + paws + " paws for a dog");
             System.out.println("Correct number is 4");
         }
+
+    } */
+
     }*/
+
 
         // Сгенерировать set и get можно комбинацией Alt+Insert
 
@@ -83,6 +87,25 @@ public class L17_Dog {
         public void setBreed (String breed){
             this.breed = breed;
         }
+
+
+    public void bark() {
+
+        switch (size) {
+            case BIG:
+            case VERY_BIG:
+                System.out.println("Wof - Wof");
+                break;
+            case AVERAGE:
+                System.out.println("Raf - Raf");
+                break;
+            case SMALL:
+            case VERY_SMALL:
+                System.out.println("Tiaf - Tiaf");
+                break;
+
+        }
+    }
 
         public void bark () {
 
@@ -110,6 +133,7 @@ public class L17_Dog {
 
         }*/
             }
+
 
 
         }
