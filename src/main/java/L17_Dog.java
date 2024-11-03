@@ -14,29 +14,32 @@ public class L17_Dog {
         System.out.println("Dog's count is " + dogsCount);
     }
 
-    private int paws = 4; // private - запрещает напрямую модифицировать значение при использовании в других классах.
-    private int tail = 1;
+    public static final int PAWS = 4;
+    // private - запрещает напрямую модифицировать значение
+    // при использовании в других классах.
+    //final - константа !!!
+    public static final int TAIL = 1;
     private String name;
     private String breed;
-    private String size;
-
+    private L21_Size size;
 
     public static int getDogsCount() {
         return dogsCount;
     }
 
-    public String getSize() {
+    public L21_Size getSize() {
         return size;
     }
 
-    public void setSize(String size) {
-        if (size.equalsIgnoreCase("Big") ||
+    public void setSize(L21_Size size) {
+        this.size = size;
+       /* if (size.equalsIgnoreCase("Big") ||
                 size.equalsIgnoreCase("Average") ||
                 size.equalsIgnoreCase("Small")) {
             this.size = size;
         } else {
             System.out.println("Size should be one of these: Big, Average or Small");
-        }
+        }*/
     }
 //Shift + 6 - исправляет опечатки во всех связях (предварительно нужноыделить слово).
 
@@ -48,6 +51,7 @@ public class L17_Dog {
         return name;
     }
 
+
     protected void setPaws(int paws) {
         if (paws == 4) {
             this.paws = paws;
@@ -57,26 +61,17 @@ public class L17_Dog {
             System.out.println("Correct number is 4");
         }
 
-        // Сгенерировать set и get можно комбинацией Alt+Insert
+    // Сгенерировать set и get можно комбинацией Alt+Insert
 
-    }
 
     public int getPaws() {
-        return paws;
+        return PAWS;
     }
 
     public int getTail() {
-        return tail;
+        return TAIL;
     }
 
-    public void setTail(int tail) {
-        if (tail == 1) {
-            this.tail = tail;
-        } else {
-            System.out.println("User tried to assign " + tail + " tails for a dog");
-            System.out.println("Correct number is 1");
-        }
-    }
 
     public String getBreed() {
         return breed;
@@ -87,12 +82,27 @@ public class L17_Dog {
     }
 
     public void bark() {
+
+        switch (size) {
+            case BIG:
+            case VERY_BIG:
+                System.out.println("Wof - Wof");
+                break;
+            case AVERAGE:
+                System.out.println("Raf - Raf");
+                break;
+            case SMALL:
+            case VERY_SMALL:
+                System.out.println("Tiaf - Tiaf");
+                break;
+
         if ("Big".equalsIgnoreCase(size)) {
             System.out.println("Wof - Wof");
         } else if ("Average".equalsIgnoreCase(size)) {
             System.out.println("Raf - Raf");
         } else {
             System.out.println("Tiaf - Tiaf");
+
         }
     }
 
