@@ -1,6 +1,6 @@
 public enum L21_Size {
 
-    VERY_SMALL("XS"), SMALL("S"), AVERAGE("M"), BIG("L"), VERY_BIG("XL");
+    VERY_SMALL("XS"), SMALL("S"), AVERAGE("M"), BIG("L"), VERY_BIG("XL"), UNDEFINED("");
 
     //2 слова всегда разделяем знаком "_" !!!
 
@@ -9,6 +9,7 @@ public enum L21_Size {
     }
 
     private String abbreviation;
+
 
     public String getAbbreviation() {
         return abbreviation;
