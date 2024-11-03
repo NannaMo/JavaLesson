@@ -52,7 +52,7 @@ public class L17_Dog {
     }
 
 
-    protected void setPaws(int paws) {
+    /*protected void setPaws(int paws) {
         if (paws == 4) {
             this.paws = paws;
         } else {
@@ -60,6 +60,7 @@ public class L17_Dog {
             System.out.println("User tried to assign " + paws + " paws for a dog");
             System.out.println("Correct number is 4");
         }
+    } */
 
     // Сгенерировать set и get можно комбинацией Alt+Insert
 
@@ -95,13 +96,6 @@ public class L17_Dog {
             case VERY_SMALL:
                 System.out.println("Tiaf - Tiaf");
                 break;
-
-        if ("Big".equalsIgnoreCase(size)) {
-            System.out.println("Wof - Wof");
-        } else if ("Average".equalsIgnoreCase(size)) {
-            System.out.println("Raf - Raf");
-        } else {
-            System.out.println("Tiaf - Tiaf");
 
         }
     }
