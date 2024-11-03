@@ -1,7 +1,14 @@
 public class L17_Dog {
 
     private static int dogsCount;
+    // Если мы не указываем тип приватный или публичный,
+    // то это значит использование метода или переменной
+    // только! в пределах пакета. Package private
 
+    //Protected - тип
+
+
+    // Конструктор:
     public L17_Dog() {
         dogsCount++;
         System.out.println("Dog's count is " + dogsCount);
@@ -12,7 +19,6 @@ public class L17_Dog {
     private String name;
     private String breed;
     private String size;
-
 
 
     public static int getDogsCount() {
@@ -42,10 +48,11 @@ public class L17_Dog {
         return name;
     }
 
-    public void setPaws(int paws) {
+    protected void setPaws(int paws) {
         if (paws == 4) {
             this.paws = paws;
         } else {
+            this.paws = 4;
             System.out.println("User tried to assign " + paws + " paws for a dog");
             System.out.println("Correct number is 4");
         }
@@ -80,9 +87,9 @@ public class L17_Dog {
     }
 
     public void bark() {
-        if (size.equalsIgnoreCase("Big")) {
+        if ("Big".equalsIgnoreCase(size)) {
             System.out.println("Wof - Wof");
-        } else if (size.equalsIgnoreCase("Average")) {
+        } else if ("Average".equalsIgnoreCase(size)) {
             System.out.println("Raf - Raf");
         } else {
             System.out.println("Tiaf - Tiaf");
