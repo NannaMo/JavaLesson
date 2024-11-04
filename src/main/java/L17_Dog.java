@@ -65,28 +65,26 @@ public class L17_Dog {
 
     } */
 
-    }*/
+
+    // Сгенерировать set и get можно комбинацией Alt+Insert
 
 
-        // Сгенерировать set и get можно комбинацией Alt+Insert
+    public int getPaws() {
+        return PAWS;
+    }
+
+    public int getTail() {
+        return TAIL;
+    }
 
 
-        public int getPaws () {
-            return PAWS;
-        }
+    public String getBreed() {
+        return breed;
+    }
 
-        public int getTail () {
-            return TAIL;
-        }
-
-
-        public String getBreed () {
-            return breed;
-        }
-
-        public void setBreed (String breed){
-            this.breed = breed;
-        }
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
 
 
     public void bark() {
@@ -107,22 +105,7 @@ public class L17_Dog {
         }
     }
 
-        public void bark () {
 
-            switch (size) {
-                case BIG:
-                case VERY_BIG:
-                    System.out.println("Wof - Wof");
-                    break;
-                case AVERAGE:
-                    System.out.println("Raf - Raf");
-                    break;
-                case SMALL:
-                case VERY_SMALL:
-                    System.out.println("Tiaf - Tiaf");
-                    break;
-                default:
-                    System.out.println("Dog's size is undefined");
 
        /* if ("Big".equalsIgnoreCase(size)) {
             System.out.println("Wof - Wof");
@@ -132,17 +115,17 @@ public class L17_Dog {
             System.out.println("Tiaf - Tiaf");
 
         }*/
-            }
 
 
 
+
+
+    public void bite() {
+        if (dogsCount > 2) {
+            System.out.println("Dogs are biting you");
+        } else {
+            bark();
         }
-        public void bite () {
-            if (dogsCount > 2) {
-                System.out.println("Dogs are biting you");
-            } else {
-                bark();
-            }
-        }
+    }
 
 }

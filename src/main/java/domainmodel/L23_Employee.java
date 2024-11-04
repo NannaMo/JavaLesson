@@ -3,16 +3,46 @@ package domainmodel;
 public class L23_Employee {
 
     private static int id;
+    private int employeeId;
     private String name;
     private String position;
     private int salary;
+    private String department;
 
+    static {
+        id = 1001;
+        System.out.println("Static init block called");
+
+    }
+
+    {
+        department = "IT";
+        System.out.println("Non-static init black called");
+    }
+
+
+    public L23_Employee() {
+        this("Anna", "B", 1);
+        System.out.println(toString());
+        System.out.println("Empty constructor called");
+    }
 
     public L23_Employee(String name, String position, int salary) {
-        id = id+1;
+        this(name, position, salary, "IT");
+        System.out.println("Constructor with 3 params called");
+    }
+
+    public L23_Employee(String name, String position, int salary, String department) {
+        employeeId = id++;
         this.name = name;
         this.position = position;
         this.salary = salary;
+        this.department = department;
+        System.out.println("Constructor with 4 params called");
+    }
+
+    public int getEmployeeId() {
+        return employeeId;
     }
 
     public static int getId() {
@@ -34,7 +64,8 @@ public class L23_Employee {
     @Override
     public String toString() {
         return "L23_Employee{" +
-                "name='" + name + '\'' +
+                "employeeId=" + employeeId +
+                ", name='" + name + '\'' +
                 ", position='" + position + '\'' +
                 ", salary=" + salary +
                 '}';
